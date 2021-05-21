@@ -1,0 +1,76 @@
+/* Setting Header Alignment*/
+.header{
+    text-align: center;
+    font-weight: normal;
+    margin: 5px 0 10px 0;
+}
+
+/* Setting Font for Entire Website*/
+#CurrentTime, #Setter{
+    font-family:'Courier New', Courier, monospace;
+}
+/* Setting the margins for the Current Time Display*/
+#CurrentTime
+{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 10px;
+    background: rgb(50, 57, 57);
+    text-align: center;
+}
+#CurrentTime .header
+{
+    color: rgb(224, 152, 216);
+}
+
+#CurrentTime .Block{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+#CurrentTime .Digits{
+    font-size: 24px;
+    background: #fff;
+    color:rgb(224, 152, 216);
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+#CurrentTime .Text{
+    margin-top: 10px;
+    color: rgb(159, 220, 193);
+}
+
+
+/* Setting the Margins of the Alarm Block*/
+#setter {
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 10px;
+    background: #f2f2f2;
+    white-space: nowrap;
+  }
+  #alarmHour, #alarmMin, #alarmSeconds {
+    display: inline-block;
+    width: 32%;
+  }
+  #setter select {
+    box-sizing: padding-box;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  #timeSet, #timeReset {
+    box-sizing: padding-box;
+    width: 50%;
+    background: rgb(123,23,154);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+  }
+  #timeSet:disabled, #timeReset:disabled {
+    background: #888;
+    color: #888;
+  }

@@ -1,0 +1,38 @@
+<html lang = "en">
+    <head>  
+    <title>Alarm Clock</title>
+    <link href = "clock.css" type = "text/css" rel = "stylesheet">
+    <script src = "alarm.js"></script>
+    </head>
+<!--Alarm Sound-->
+    <audio id = "alarmSound" loop>
+        <source src = "alarm.mp3" typoe = "audio/mp3">
+    </audio> 
+<!--Current Time Block-->
+    <div id = "CurrentTime">
+    <h1 class = "header">Time</h1>
+    <div class = "Block">
+        <div class = "Digits" id = "hour">00</div>
+        <div class = "text">Hour</div>
+    </div>
+    <div class = "Block">
+        <div class = "Digits" id = "minutes">00</div>
+        <div class = "Text">Minutes</div>
+    </div>
+     <div class = "Block">
+        <div class = "Digits" id = "seconds">00</div>
+        <div class = "Text">Seconds</div>
+    </div>
+    </div>
+<!--Alarm Setting Block-->
+    <div id = "setter">
+        <h1 class = "header">Set the Alarm</h1>
+        <div id = "alarmHour"></div>
+        <div id = "alarmMin"></div>
+        <div id = "alarmSeconds"></div>
+        <div>
+            <input type = "button" value = "Set" id = "timeSet">
+            <input type = "button" value = "Reset" id = "timeReset">
+        </div>
+    </div>
+</html?
